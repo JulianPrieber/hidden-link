@@ -1,0 +1,7 @@
+id: 2
+typename: hidden-link # This should match the name of the folder where the block's files are stored.
+title: "Hidden Link" # The display name of the block as it will appear in the UI.
+description: "Create a hidden link." # A brief explanation of the block's functionality.
+icon: "bi bi-incognito" # The Bootstrap icon class used for the block's icon in the UI.
+custom_html: true # Set to 'true' if the block requires custom code within the display.blade.php file.
+ignore_container: false # When 'custom_html' is true, setting this to 'true' allows the block to render outside the default container div.
